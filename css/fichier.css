@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.small-container{
+max-width:1000px;
+margin: auto;
+padding-left: 25px;
+padding-right:25px
+}
+.col-3{
+flex-basis: 25%;
+padding: 10px;
+min-height: 200px;
+margin-bottom: 20px;
+margin-top: 60px;
+text-align: center;
+transition: 0.5s;
+}
+.col-3 img{
+width: 100%;
+box-shadow: 20px;
+
+}
+.bouton-achat {
+    background-color: #4e99ee; /* Couleur de fond verte */
+    color: white; /* Couleur du texte blanche */
+    padding: 10px 20px; /* Marge intérieure du bouton */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Supprimer la bordure par défaut du bouton */
+    cursor: pointer; /* Définir le curseur comme pointeur au survol */
+}
